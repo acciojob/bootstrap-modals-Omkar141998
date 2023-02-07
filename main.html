@@ -14,40 +14,60 @@
 
   <body>
     <!-- Button trigger modal -->
-    <div class="modal" tabindex="-1" id="accio-model">
-      <div class="modal-dialog">
-        <div class="modal-content">
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Close the model
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal modal-dialog-centered newton-modal"
+      id="newton-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-content" id="newton-modal ">
+        <div class="newton-modal">
           <div class="modal-header">
-            <h5 class="modal-title">New Model</h5>
+            <h1 class="modal-title fs-5">New Model</h1>
             <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-              id="open-model"
             ></button>
           </div>
           <div class="modal-body">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              cumque omnis quaerat alias. Voluptatem earum similique blanditiis
-              natus voluptatibus eum sit doloremque, fuga et veniam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              repellendus voluptas ipsum distinctio facilis quasi dolor saepe
+              asperiores alias blanditiis provident nostrum id veritatis,
+              pariatur voluptates nisi? Sed sint culpa dolorem vero,
+              exercitationem dolores animi.
             </p>
           </div>
           <div class="modal-footer">
             <button
               type="button"
-              id="close-model"
-              class="btn btn-secondary"
+              class=""
+              data-bs-toggle="modal"
               data-bs-dismiss="modal"
+              id="open-modal"
             >
               Close
             </button>
+           
           </div>
         </div>
       </div>
     </div>
 
+    <!-- the entire body must be written by student -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
