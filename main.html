@@ -14,54 +14,54 @@
 
   <body>
     <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
     <button
       type="button"
-      class="btn btn-primary modal-dialog-centered"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModal"
     >
-      open the model
+      Launch demo modal
     </button>
 
     <!-- Modal -->
     <div
-      class="modal modal-dialog-centered newton-modal"
-      id="newton-modal"
+      class="modal fade"
+      id="exampleModal"
       tabindex="-1"
+      role="dialog"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-content modal-dialog " id="newton-modal ">
-        <div class="newton-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5">New Model</h1>
+            <h5 class="modal-title" id="exampleModalLabel">New Model</h5>
             <button
               type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
+              class="close"
+              data-dismiss="modal"
               aria-label="Close"
-            ></button>
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              repellendus voluptas ipsum distinctio facilis quasi dolor saepe
-              asperiores alias blanditiis provident nostrum id veritatis,
-              pariatur voluptates nisi? Sed sint culpa dolorem vero,
-              exercitationem dolores animi.
-            </p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            ratione est veritatis non perferendis? Aliquid autem ratione vel
+            sint voluptas veritatis, officia sit. Voluptatibus, totam, ipsam
+            minima odio id commodi cupiditate ut nisi blanditiis qui ex
+            accusamus, officia ab aut!
           </div>
           <div class="modal-footer">
             <button
               type="button"
-              class=""
-              data-bs-toggle="modal"
-              data-bs-dismiss="modal"
-              id="open-modal"
+              class="btn btn-secondary"
+              data-dismiss="modal"
             >
               Close
             </button>
-           
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
