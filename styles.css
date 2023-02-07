@@ -21,3 +21,7 @@ body{
 #open-model{
     visibility: visible;
 }
+.modal-dialog{
+    vertical-align: center;
+    align-items: center;
+    }
